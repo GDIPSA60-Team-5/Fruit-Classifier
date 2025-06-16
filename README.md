@@ -87,13 +87,7 @@ For a detailed analysis of the experiments, architectural decisions, and perform
 For more in-depth information, including detailed training logs, configuration variations, and comprehensive experimental results, please check the following resources:
 
   * **Detailed Training Logs:** [ML CA Training Document.xlsx](https://nusu-my.sharepoint.com/:x:/g/personal/e1505293_u_nus_edu/ET27ONUOThdEkbEY2fCtI_cBndHgL46WP4fQZYzunj0biA?e=LJiliF)
-  * **Full Codebase:** [GitHub Repository — Fruit Classifier (Team 5)](https://github.com/GDIPSA60-Team-5/Fruit-Classifier/tree/main)
-
 -----
-
-## Contributing
-
-We welcome contributions\! If you have suggestions for improvements or new features, feel free to open an issue or submit a pull request.
 
 ## License
 
