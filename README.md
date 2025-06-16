@@ -20,21 +20,17 @@ The project involved a comprehensive approach, from initial data analysis and pr
 
 ```
 .
-├── dataset/
-│   ├── train/
-│   │   ├── Apple/
-│   │   ├── Banana/
-│   │   ├── Orange/
-│   │   └── Mixed/
-│   └── test/
-│       ├── Apple/
-│       ├── Banana/
-│       ├── Orange/
-│       └── Mixed/
-├── figures/  # Contains plots and images used in the report
-├── Fruit_Image_Classifier_Report.pdf # The full project report (generated from LaTeX)
-├── fruit_classifier.py # Python script for model training and evaluation
-└── README.md
+├── CA_ResNet-18.ipynb                
+├── CA_ResNet-8.ipynb                 
+├── README.md                         # Project overview and instructions
+├── ResNet-18_0.9333_Records/         # Saved training logs/results for ResNet-18 with 93.33% accuracy
+├── ResNet-8_0.9333_Records/          # Saved training logs/results for ResNet-8 with 93.33% accuracy
+├── test/                             # Test dataset directory
+│   ├── 0/                            # apple
+│   ├── 1/                            # banana
+│   ├── 2/                            # orange
+│   └── 3/                            # mixed
+├── train/                            # Training dataset directory
 ```
 
 ## Getting Started
