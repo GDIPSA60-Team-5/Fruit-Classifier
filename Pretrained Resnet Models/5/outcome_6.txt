@@ -1,0 +1,74 @@
+(myass) c:\Users\Cleveland\Desktop\mechanical\assignment5>python C:\Users\Cleveland\Desktop\mechanical\assignment6\train_cnn_resnet_se.py
+2025-06-09 09:14:26.019973: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-06-09 09:14:26.772036: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+Found 520 images belonging to 4 classes.
+Found 90 images belonging to 4 classes.
+Found 60 images belonging to 4 classes.
+2025-06-09 09:14:29.747365: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+D:\anaconda3\envs\myass\lib\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+Epoch 1/50
+ 1/17 ━━━━━━━━━━━━━━━━━━━━ 2:02 8s/step - accuracy: 0.2188 - loss: 1.5713D:\anaconda3\envs\myass\lib\site-packages\PIL\Image.py:1043: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.3943 - loss: 1.3486
+Epoch 1: val_accuracy improved from -inf to 0.82222, saving model to C:\Users\Cleveland\Desktop\mechanical\assignment3\result\best.h5
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+17/17 ━━━━━━━━━━━━━━━━━━━━ 39s 2s/step - accuracy: 0.4014 - loss: 1.3350 - val_accuracy: 0.8222 - val_loss: 0.5824
+Epoch 2/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.8341 - loss: 0.5213
+Epoch 2: val_accuracy improved from 0.82222 to 0.87778, saving model to C:\Users\Cleveland\Desktop\mechanical\assignment3\result\best.h5
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+17/17 ━━━━━━━━━━━━━━━━━━━━ 37s 2s/step - accuracy: 0.8349 - loss: 0.5182 - val_accuracy: 0.8778 - val_loss: 0.3870
+Epoch 3/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9237 - loss: 0.3394
+Epoch 3: val_accuracy improved from 0.87778 to 0.93333, saving model to C:\Users\Cleveland\Desktop\mechanical\assignment3\result\best.h5
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+17/17 ━━━━━━━━━━━━━━━━━━━━ 41s 2s/step - accuracy: 0.9235 - loss: 0.3368 - val_accuracy: 0.9333 - val_loss: 0.2537
+Epoch 4/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9260 - loss: 0.2465
+Epoch 4: val_accuracy improved from 0.93333 to 0.95556, saving model to C:\Users\Cleveland\Desktop\mechanical\assignment3\result\best.h5
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+17/17 ━━━━━━━━━━━━━━━━━━━━ 42s 2s/step - accuracy: 0.9267 - loss: 0.2456 - val_accuracy: 0.9556 - val_loss: 0.2484
+Epoch 5/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9136 - loss: 0.2162
+Epoch 5: val_accuracy did not improve from 0.95556
+17/17 ━━━━━━━━━━━━━━━━━━━━ 40s 2s/step - accuracy: 0.9149 - loss: 0.2152 - val_accuracy: 0.9556 - val_loss: 0.2157
+Epoch 6/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9613 - loss: 0.1707
+Epoch 6: val_accuracy did not improve from 0.95556
+17/17 ━━━━━━━━━━━━━━━━━━━━ 27s 2s/step - accuracy: 0.9611 - loss: 0.1704 - val_accuracy: 0.9000 - val_loss: 0.2368
+Epoch 7/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9780 - loss: 0.1349
+Epoch 7: val_accuracy did not improve from 0.95556
+17/17 ━━━━━━━━━━━━━━━━━━━━ 43s 2s/step - accuracy: 0.9775 - loss: 0.1353 - val_accuracy: 0.9556 - val_loss: 0.2026
+Epoch 8/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9671 - loss: 0.1169
+Epoch 8: val_accuracy improved from 0.95556 to 0.97778, saving model to C:\Users\Cleveland\Desktop\mechanical\assignment3\result\best.h5
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+17/17 ━━━━━━━━━━━━━━━━━━━━ 42s 2s/step - accuracy: 0.9671 - loss: 0.1169 - val_accuracy: 0.9778 - val_loss: 0.1572
+Epoch 9/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9759 - loss: 0.1213
+Epoch 9: val_accuracy did not improve from 0.97778
+17/17 ━━━━━━━━━━━━━━━━━━━━ 40s 2s/step - accuracy: 0.9761 - loss: 0.1208 - val_accuracy: 0.9444 - val_loss: 0.1743
+Epoch 10/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9881 - loss: 0.1024
+Epoch 10: val_accuracy did not improve from 0.97778
+17/17 ━━━━━━━━━━━━━━━━━━━━ 41s 2s/step - accuracy: 0.9879 - loss: 0.1028 - val_accuracy: 0.9667 - val_loss: 0.1643
+Epoch 11/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9795 - loss: 0.1046
+Epoch 11: val_accuracy did not improve from 0.97778
+17/17 ━━━━━━━━━━━━━━━━━━━━ 42s 2s/step - accuracy: 0.9795 - loss: 0.1049 - val_accuracy: 0.9556 - val_loss: 0.1457
+Epoch 12/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9798 - loss: 0.0970
+Epoch 12: val_accuracy did not improve from 0.97778
+17/17 ━━━━━━━━━━━━━━━━━━━━ 41s 2s/step - accuracy: 0.9799 - loss: 0.0966 - val_accuracy: 0.9667 - val_loss: 0.1529
+Epoch 13/50
+17/17 ━━━━━━━━━━━━━━━━━━━━ 0s 1s/step - accuracy: 0.9848 - loss: 0.0780
+Epoch 13: val_accuracy did not improve from 0.97778
+17/17 ━━━━━━━━━━━━━━━━━━━━ 41s 2s/step - accuracy: 0.9849 - loss: 0.0778 - val_accuracy: 0.9333 - val_loss: 0.2145
+Epoch 13: early stopping
+Restoring model weights from the end of the best epoch: 8.
+✅  Restored best validation weights.
+✅  Final Test Accuracy: 96.667%
+📁  All figures saved to C:\Users\Cleveland\Desktop\mechanical\assignment3\result

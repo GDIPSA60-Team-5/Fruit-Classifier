@@ -1,0 +1,69 @@
+
+(myass) PS C:\Users\Cleveland\Desktop\mechanical> & D:/anaconda3/envs/myass/python.exe c:/Users/Cleveland/Desktop/mechanical/assignment4.2/train_cnn_fruit_1_clean.py
+2025-06-09 19:35:00.253807: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2025-06-09 19:35:00.253928: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Found 520 images belonging to 4 classes.
+Found 90 images belonging to 4 classes.
+Found 60 images belonging to 4 classes.
+2025-06-09 19:35:03.848101: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2025-06-09 19:35:03.848665: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found
+2025-06-09 19:35:03.849030: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found
+2025-06-09 19:35:03.849366: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found
+2025-06-09 19:35:03.849799: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found
+2025-06-09 19:35:03.850219: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cusolver64_11.dll'; dlerror: cusolver64_11.dll not found
+2025-06-09 19:35:03.850609: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found
+2025-06-09 19:35:03.850967: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
+2025-06-09 19:35:03.851004: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2025-06-09 19:35:03.851264: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/25
+ 5/17 [=======>......................] - ETA: 6s - loss: 1.4232 - accuracy: 0.4062D:\anaconda3\envs\myass\lib\site-packages\PIL\Image.py:1043: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+17/17 [==============================] - 13s 682ms/step - loss: 1.1102 - accuracy: 0.5442 - val_loss: 0.6024 - val_accuracy: 0.7778
+Epoch 2/25
+17/17 [==============================] - 11s 619ms/step - loss: 0.4824 - accuracy: 0.8365 - val_loss: 0.3274 - val_accuracy: 0.9000
+Epoch 3/25
+17/17 [==============================] - 11s 623ms/step - loss: 0.3177 - accuracy: 0.9154 - val_loss: 0.2668 - val_accuracy: 0.9444
+Epoch 4/25
+17/17 [==============================] - 11s 642ms/step - loss: 0.2480 - accuracy: 0.9308 - val_loss: 0.2441 - val_accuracy: 0.9333
+Epoch 5/25
+17/17 [==============================] - 11s 632ms/step - loss: 0.1857 - accuracy: 0.9558 - val_loss: 0.2167 - val_accuracy: 0.9444
+Epoch 6/25
+17/17 [==============================] - 11s 626ms/step - loss: 0.1689 - accuracy: 0.9558 - val_loss: 0.2341 - val_accuracy: 0.9333
+Epoch 7/25
+17/17 [==============================] - 11s 632ms/step - loss: 0.1629 - accuracy: 0.9654 - val_loss: 0.2060 - val_accuracy: 0.9444
+Epoch 8/25
+17/17 [==============================] - 11s 617ms/step - loss: 0.1432 - accuracy: 0.9769 - val_loss: 0.1963 - val_accuracy: 0.9444
+Epoch 9/25
+17/17 [==============================] - ETA: 0s - loss: 0.1315 - accuracy: 0.9692Restoring model weights from the end of the best epoch: 3.
+17/17 [==============================] - 11s 624ms/step - loss: 0.1315 - accuracy: 0.9692 - val_loss: 0.2738 - val_accuracy: 0.8889
+Epoch 9: early stopping
+Epoch 1/20
+17/17 [==============================] - 13s 698ms/step - loss: 0.2386 - accuracy: 0.9365 - val_loss: 0.2498 - val_accuracy: 0.9556 - lr: 1.0000e-05
+Epoch 2/20
+17/17 [==============================] - 11s 656ms/step - loss: 0.1631 - accuracy: 0.9538 - val_loss: 0.1626 - val_accuracy: 0.9667 - lr: 1.0000e-05
+Epoch 3/20
+17/17 [==============================] - 11s 651ms/step - loss: 0.1440 - accuracy: 0.9519 - val_loss: 0.1737 - val_accuracy: 0.9444 - lr: 1.0000e-05
+Epoch 4/20
+17/17 [==============================] - 11s 649ms/step - loss: 0.1555 - accuracy: 0.9500 - val_loss: 0.2313 - val_accuracy: 0.9222 - lr: 1.0000e-05
+Epoch 5/20
+17/17 [==============================] - ETA: 0s - loss: 0.1329 - accuracy: 0.9654 
+Epoch 5: ReduceLROnPlateau reducing learning rate to 4.999999873689376e-06.
+17/17 [==============================] - 11s 645ms/step - loss: 0.1329 - accuracy: 0.9654 - val_loss: 0.2205 - val_accuracy: 0.9556 - lr: 1.0000e-05
+Epoch 6/20
+17/17 [==============================] - 11s 651ms/step - loss: 0.1174 - accuracy: 0.9635 - val_loss: 0.1729 - val_accuracy: 0.9444 - lr: 5.0000e-06
+Epoch 7/20
+17/17 [==============================] - 11s 655ms/step - loss: 0.1084 - accuracy: 0.9692 - val_loss: 0.1634 - val_accuracy: 0.9556 - lr: 5.0000e-06
+Epoch 8/20
+17/17 [==============================] - ETA: 0s - loss: 0.0877 - accuracy: 0.9788
+Epoch 8: ReduceLROnPlateau reducing learning rate to 3e-06.
+17/17 [==============================] - 11s 652ms/step - loss: 0.0877 - accuracy: 0.9788 - val_loss: 0.2060 - val_accuracy: 0.9556 - lr: 5.0000e-06
+Epoch 9/20
+17/17 [==============================] - 11s 647ms/step - loss: 0.1133 - accuracy: 0.9558 - val_loss: 0.1778 - val_accuracy: 0.9333 - lr: 3.0000e-06
+Epoch 10/20
+17/17 [==============================] - ETA: 0s - loss: 0.0970 - accuracy: 0.9731Restoring model weights from the end of the best epoch: 2.
+17/17 [==============================] - 11s 664ms/step - loss: 0.0970 - accuracy: 0.9731 - val_loss: 0.2125 - val_accuracy: 0.9444 - lr: 3.0000e-06
+Epoch 10: early stopping
+✅  Final Test Accuracy: 95.000%
+⬆️ Saving figures to: C:\Users\Cleveland\Desktop\mechanical\assignment4\result

@@ -1,0 +1,52 @@
+Class Distribution in Training Data:
+- apple: 60 samples (Training), 15 samples (Validation)
+- banana: 54 samples (Training), 13 samples (Validation)
+- orange: 57 samples (Training), 15 samples (Validation)
+- mixed: 56 samples (Training), 14 samples (Validation)
+
+Calculated Class Weights: [0.9458333253860474, 1.0509259700775146, 0.9956140518188477, 1.0133928060531616]   
+Epoch 01/30 | Loss: 7.69051 | Train Acc:  36.56% | Val Acc:  31.58%
+Epoch 02/30 | Loss: 7.76633 | Train Acc:  43.17% | Val Acc:  61.40%
+Epoch 03/30 | Loss: 4.52089 | Train Acc:  58.15% | Val Acc:  63.16%
+Epoch 04/30 | Loss: 1.83269 | Train Acc:  51.10% | Val Acc:  57.89%
+Epoch 05/30 | Loss: 0.80917 | Train Acc:  60.79% | Val Acc:  63.16%
+Epoch 06/30 | Loss: 0.54679 | Train Acc:  59.47% | Val Acc:  71.93%
+Epoch 07/30 | Loss: 0.50715 | Train Acc:  60.35% | Val Acc:  78.95%
+Epoch 08/30 | Loss: 0.45317 | Train Acc:  61.67% | Val Acc:  80.70%
+Epoch 09/30 | Loss: 0.45121 | Train Acc:  60.79% | Val Acc:  77.19%
+Epoch 10/30 | Loss: 0.46047 | Train Acc:  62.11% | Val Acc:  78.95%
+Epoch 11/30 | Loss: 0.46344 | Train Acc:  62.56% | Val Acc:  80.70%
+Epoch 12/30 | Loss: 0.40359 | Train Acc:  64.32% | Val Acc:  82.46%
+Epoch 13/30 | Loss: 0.41377 | Train Acc:  62.56% | Val Acc:  78.95%
+Epoch 14/30 | Loss: 0.41664 | Train Acc:  61.23% | Val Acc:  68.42%
+Epoch 15/30 | Loss: 0.45117 | Train Acc:  59.03% | Val Acc:  66.67%
+Epoch 16/30 | Loss: 0.40375 | Train Acc:  62.11% | Val Acc:  78.95%
+Epoch 17/30 | Loss: 0.39229 | Train Acc:  62.56% | Val Acc:  77.19%
+Epoch 18/30 | Loss: 0.36375 | Train Acc:  66.52% | Val Acc:  84.21%
+Epoch 19/30 | Loss: 0.37226 | Train Acc:  60.35% | Val Acc:  85.96%
+Epoch 20/30 | Loss: 0.35927 | Train Acc:  65.64% | Val Acc:  80.70%
+Epoch 21/30 | Loss: 0.35482 | Train Acc:  64.32% | Val Acc:  78.95%
+Epoch 22/30 | Loss: 0.36808 | Train Acc:  66.52% | Val Acc:  89.47%
+Epoch 23/30 | Loss: 0.31655 | Train Acc:  65.64% | Val Acc:  84.21%
+Epoch 24/30 | Loss: 0.33112 | Train Acc:  67.40% | Val Acc:  85.96%
+Epoch 25/30 | Loss: 0.30569 | Train Acc:  73.57% | Val Acc:  84.21%
+Epoch 26/30 | Loss: 0.40661 | Train Acc:  63.44% | Val Acc:  85.96%
+Epoch 27/30 | Loss: 0.29360 | Train Acc:  67.40% | Val Acc:  85.96%
+Epoch 28/30 | Loss: 0.26823 | Train Acc:  72.25% | Val Acc:  82.46%
+Epoch 29/30 | Loss: 0.27164 | Train Acc:  71.37% | Val Acc:  85.96%
+Epoch 30/30 | Loss: 0.24440 | Train Acc:  70.48% | Val Acc:  91.23%
+Final model saved to 'final_model.pth'
+Final Test Accuracy: 93.33%
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+       apple       0.95      0.95      0.95        19
+      banana       1.00      0.89      0.94        18
+      orange       0.95      1.00      0.97        18
+       mixed       0.67      0.80      0.73         5
+
+    accuracy                           0.93        60
+   macro avg       0.89      0.91      0.90        60
+weighted avg       0.94      0.93      0.93        60

@@ -1,0 +1,34 @@
+d:\paulphyo\envs\torchenv\lib\site-packages\PIL\Image.py:1045: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Epoch [1/15], Loss: 1.5774, Train Accuracy: 0.3099, Test Accuracy: 0.5500
+Epoch [2/15], Loss: 1.0915, Train Accuracy: 0.5352, Test Accuracy: 0.5333
+Epoch [3/15], Loss: 0.7849, Train Accuracy: 0.6866, Test Accuracy: 0.7667
+Epoch [4/15], Loss: 0.6237, Train Accuracy: 0.7430, Test Accuracy: 0.8000
+Epoch [5/15], Loss: 0.5863, Train Accuracy: 0.7782, Test Accuracy: 0.8167
+Epoch [6/15], Loss: 0.4691, Train Accuracy: 0.8169, Test Accuracy: 0.8167
+Epoch [7/15], Loss: 0.3985, Train Accuracy: 0.8697, Test Accuracy: 0.8333
+Epoch [8/15], Loss: 0.3403, Train Accuracy: 0.8803, Test Accuracy: 0.8000
+Epoch [9/15], Loss: 0.3417, Train Accuracy: 0.8592, Test Accuracy: 0.8167
+Epoch [10/15], Loss: 0.2373, Train Accuracy: 0.9120, Test Accuracy: 0.8500
+Epoch [11/15], Loss: 0.1976, Train Accuracy: 0.9437, Test Accuracy: 0.9167
+Epoch [12/15], Loss: 0.1686, Train Accuracy: 0.9542, Test Accuracy: 0.8833
+Epoch [13/15], Loss: 0.1968, Train Accuracy: 0.9331, Test Accuracy: 0.9000
+Epoch [14/15], Loss: 0.1493, Train Accuracy: 0.9507, Test Accuracy: 0.9000
+Epoch [15/15], Loss: 0.1632, Train Accuracy: 0.9472, Test Accuracy: 0.9167
+Training complete.
+Final Test Accuracy: 0.9167
+Plot saved as plots/training_vs_validation_accuracy_20250614_152344.png
+Plot saved as plots/confusion_matrix_heatmap_20250614_152403.png
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       apple       0.95      0.95      0.95        19
+      banana       0.94      0.89      0.91        18
+      orange       0.90      1.00      0.95        18
+       mixed       0.75      0.60      0.67         5
+
+    accuracy                           0.92        60
+   macro avg       0.88      0.86      0.87        60
+weighted avg       0.91      0.92      0.91        60
+

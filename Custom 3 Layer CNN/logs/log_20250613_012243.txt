@@ -1,0 +1,34 @@
+D:\paulphyo\envs\torchenv\lib\site-packages\PIL\Image.py:1045: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+Epoch [1/15], Loss: 1.3436, Train Accuracy: 0.3906, Validation Accuracy: 0.3542
+Epoch [2/15], Loss: 1.1286, Train Accuracy: 0.5625, Validation Accuracy: 0.7708
+Epoch [3/15], Loss: 0.8718, Train Accuracy: 0.7240, Validation Accuracy: 0.8333
+Epoch [4/15], Loss: 0.6651, Train Accuracy: 0.7760, Validation Accuracy: 0.8333
+Epoch [5/15], Loss: 0.5093, Train Accuracy: 0.8177, Validation Accuracy: 0.8333
+Epoch [6/15], Loss: 0.3963, Train Accuracy: 0.8594, Validation Accuracy: 0.8750
+Epoch [7/15], Loss: 0.3784, Train Accuracy: 0.8802, Validation Accuracy: 0.8542
+Epoch [8/15], Loss: 0.3213, Train Accuracy: 0.8906, Validation Accuracy: 0.7708
+Epoch [9/15], Loss: 0.3380, Train Accuracy: 0.8802, Validation Accuracy: 0.8542
+Epoch [10/15], Loss: 0.2187, Train Accuracy: 0.9167, Validation Accuracy: 0.8333
+Epoch [11/15], Loss: 0.2029, Train Accuracy: 0.9323, Validation Accuracy: 0.8542
+Epoch [12/15], Loss: 0.1706, Train Accuracy: 0.9427, Validation Accuracy: 0.7917
+Epoch [13/15], Loss: 0.1113, Train Accuracy: 0.9740, Validation Accuracy: 0.8542
+Epoch [14/15], Loss: 0.0899, Train Accuracy: 0.9896, Validation Accuracy: 0.8125
+Epoch [15/15], Loss: 0.0746, Train Accuracy: 0.9792, Validation Accuracy: 0.8750
+Training complete.
+Final Test Accuracy: 0.8667
+Plot saved as plots/training_vs_validation_accuracy_20250613_012435.png
+Plot saved as plots/confusion_matrix_heatmap_20250613_012440.png
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       apple       0.83      1.00      0.90        19
+      banana       0.89      0.89      0.89        18
+      orange       0.94      0.94      0.94        18
+       mixed       0.00      0.00      0.00         5
+
+    accuracy                           0.87        60
+   macro avg       0.66      0.71      0.68        60
+weighted avg       0.81      0.87      0.84        60
+

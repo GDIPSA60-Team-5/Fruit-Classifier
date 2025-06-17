@@ -1,0 +1,54 @@
+Class Distribution in Training Data:
+- apple: 60 samples (Training), 15 samples (Validation)
+- banana: 54 samples (Training), 13 samples (Validation)
+- orange: 57 samples (Training), 15 samples (Validation)
+- mixed: 56 samples (Training), 14 samples (Validation)
+
+Calculated Class Weights: [0.9458333253860474, 1.0509259700775146, 0.9956140518188477, 1.0133928060531616] 
+Epoch 01/30 | Loss: 10.64326 | Train Acc:  29.07% | Val Acc:  45.61%
+Epoch 02/30 | Loss: 2.65333 | Train Acc:  54.63% | Val Acc:  57.89%
+Epoch 03/30 | Loss: 1.25590 | Train Acc:  68.72% | Val Acc:  57.89%
+Epoch 04/30 | Loss: 0.95534 | Train Acc:  67.40% | Val Acc:  73.68%
+Epoch 05/30 | Loss: 0.55635 | Train Acc:  72.69% | Val Acc:  84.21%
+Epoch 06/30 | Loss: 0.30425 | Train Acc:  74.01% | Val Acc:  85.96%
+Epoch 07/30 | Loss: 0.28820 | Train Acc:  73.13% | Val Acc:  89.47%
+Epoch 08/30 | Loss: 0.26422 | Train Acc:  80.62% | Val Acc:  82.46%
+Epoch 09/30 | Loss: 0.27532 | Train Acc:  74.45% | Val Acc:  82.46%
+Epoch 10/30 | Loss: 0.19918 | Train Acc:  88.11% | Val Acc:  89.47%
+Epoch 11/30 | Loss: 0.22337 | Train Acc:  78.85% | Val Acc:  91.23%
+Highest validation accuracy found: 91.23% - Model saved to 'best_model.pth'
+Epoch 12/30 | Loss: 0.22734 | Train Acc:  82.38% | Val Acc:  85.96%
+Epoch 13/30 | Loss: 0.25715 | Train Acc:  76.65% | Val Acc:  89.47%
+Epoch 14/30 | Loss: 0.26197 | Train Acc:  77.97% | Val Acc:  91.23%
+Epoch 15/30 | Loss: 0.25426 | Train Acc:  78.85% | Val Acc:  89.47%
+Epoch 16/30 | Loss: 0.23705 | Train Acc:  80.18% | Val Acc:  87.72%
+Epoch 17/30 | Loss: 0.24076 | Train Acc:  77.53% | Val Acc:  91.23%
+Epoch 18/30 | Loss: 0.21624 | Train Acc:  79.30% | Val Acc:  89.47%
+Epoch 19/30 | Loss: 0.13760 | Train Acc:  85.46% | Val Acc:  89.47%
+Epoch 20/30 | Loss: 0.17659 | Train Acc:  83.26% | Val Acc:  92.98%
+Highest validation accuracy found: 92.98% - Model saved to 'best_model.pth'
+Epoch 21/30 | Loss: 0.29052 | Train Acc:  80.18% | Val Acc:  91.23%
+Epoch 22/30 | Loss: 0.17301 | Train Acc:  80.18% | Val Acc:  85.96%
+Epoch 23/30 | Loss: 0.21072 | Train Acc:  80.18% | Val Acc:  89.47%
+Epoch 24/30 | Loss: 0.21794 | Train Acc:  78.85% | Val Acc:  89.47%
+Epoch 25/30 | Loss: 0.16787 | Train Acc:  81.06% | Val Acc:  91.23%
+Epoch 26/30 | Loss: 0.17160 | Train Acc:  79.30% | Val Acc:  92.98%
+Epoch 27/30 | Loss: 0.15307 | Train Acc:  86.34% | Val Acc:  94.74%
+Highest validation accuracy found: 94.74% - Model saved to 'best_model.pth'
+Epoch 28/30 | Loss: 0.20340 | Train Acc:  75.77% | Val Acc:  89.47%
+Epoch 29/30 | Loss: 0.13682 | Train Acc:  83.26% | Val Acc:  91.23%
+Epoch 30/30 | Loss: 0.19166 | Train Acc:  77.97% | Val Acc:  94.74%
+Final Test Accuracy: 91.67%
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+       apple       0.86      0.95      0.90        19
+      banana       1.00      0.89      0.94        18
+      orange       1.00      1.00      1.00        18
+       mixed       0.60      0.60      0.60         5
+
+    accuracy                           0.92        60
+   macro avg       0.86      0.86      0.86        60
+weighted avg       0.92      0.92      0.92

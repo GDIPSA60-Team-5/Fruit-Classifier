@@ -1,0 +1,61 @@
+(myass) PS C:\Users\Cleveland\Desktop\mechanical> & D:/anaconda3/envs/myass/python.exe c:/Users/Cleveland/Desktop/mechanical/assignment3/train_cnn_fruit_1.py
+2025-06-09 19:00:02.775840: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2025-06-09 19:00:02.776129: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+Found 520 images belonging to 4 classes.
+Found 90 images belonging to 4 classes.
+Found 60 images belonging to 4 classes.
+2025-06-09 19:00:10.185985: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2025-06-09 19:00:10.187025: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found
+2025-06-09 19:00:10.187841: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found
+2025-06-09 19:00:10.188641: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found
+2025-06-09 19:00:10.189433: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found
+2025-06-09 19:00:10.190241: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cusolver64_11.dll'; dlerror: cusolver64_11.dll not found
+2025-06-09 19:00:10.191065: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found
+2025-06-09 19:00:10.192227: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
+2025-06-09 19:00:10.192346: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1934] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2025-06-09 19:00:10.193163: I tensorflow/core/platform/cpu_feature_guard.cc:193] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Epoch 1/50
+ 5/17 [=======>......................] - ETA: 13s - loss: 1.4279 - accuracy: 0.3812D:\anaconda3\envs\myass\lib\site-packages\PIL\Image.py:1043: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+17/17 [==============================] - ETA: 0s - loss: 1.1221 - accuracy: 0.5212 
+Epoch 1: val_accuracy improved from -inf to 0.80000, saving model to C:\Users\Cleveland\Desktop\mechanical\assignment3\result\best.h5
+17/17 [==============================] - 27s 1s/step - loss: 1.1221 - accuracy: 0.5212 - val_loss: 0.5800 - val_accuracy: 0.8000
+Epoch 2/50
+17/17 [==============================] - ETA: 0s - loss: 0.4755 - accuracy: 0.8327 
+Epoch 2: val_accuracy improved from 0.80000 to 0.88889, saving model to C:\Users\Cleveland\Desktop\mechanical\assignment3\result\best.h5
+17/17 [==============================] - 21s 1s/step - loss: 0.4755 - accuracy: 0.8327 - val_loss: 0.3322 - val_accuracy: 0.8889
+Epoch 3/50
+17/17 [==============================] - ETA: 0s - loss: 0.3095 - accuracy: 0.9038 
+Epoch 3: val_accuracy improved from 0.88889 to 0.92222, saving model to C:\Users\Cleveland\Desktop\mechanical\assignment3\result\best.h5
+17/17 [==============================] - 22s 1s/step - loss: 0.3095 - accuracy: 0.9038 - val_loss: 0.2606 - val_accuracy: 0.9222
+Epoch 4/50
+17/17 [==============================] - ETA: 0s - loss: 0.2378 - accuracy: 0.9308 
+Epoch 4: val_accuracy improved from 0.92222 to 0.94444, saving model to C:\Users\Cleveland\Desktop\mechanical\assignment3\result\best.h5
+17/17 [==============================] - 22s 1s/step - loss: 0.2378 - accuracy: 0.9308 - val_loss: 0.2286 - val_accuracy: 0.9444
+Epoch 5/50
+17/17 [==============================] - ETA: 0s - loss: 0.1797 - accuracy: 0.9481 
+Epoch 5: val_accuracy did not improve from 0.94444
+17/17 [==============================] - 21s 1s/step - loss: 0.1797 - accuracy: 0.9481 - val_loss: 0.2170 - val_accuracy: 0.9333
+Epoch 6/50
+17/17 [==============================] - ETA: 0s - loss: 0.1575 - accuracy: 0.9615 
+Epoch 6: val_accuracy did not improve from 0.94444
+17/17 [==============================] - 21s 1s/step - loss: 0.1575 - accuracy: 0.9615 - val_loss: 0.2293 - val_accuracy: 0.9444
+Epoch 7/50
+17/17 [==============================] - ETA: 0s - loss: 0.1540 - accuracy: 0.9577 
+Epoch 7: val_accuracy did not improve from 0.94444
+17/17 [==============================] - 22s 1s/step - loss: 0.1540 - accuracy: 0.9577 - val_loss: 0.2133 - val_accuracy: 0.9444
+Epoch 8/50
+17/17 [==============================] - ETA: 0s - loss: 0.1316 - accuracy: 0.9769 
+Epoch 8: val_accuracy did not improve from 0.94444
+17/17 [==============================] - 21s 1s/step - loss: 0.1316 - accuracy: 0.9769 - val_loss: 0.1971 - val_accuracy: 0.9333
+Epoch 9/50
+17/17 [==============================] - ETA: 0s - loss: 0.1261 - accuracy: 0.9673 
+Epoch 9: val_accuracy did not improve from 0.94444
+Restoring model weights from the end of the best epoch: 4.
+17/17 [==============================] - 21s 1s/step - loss: 0.1261 - accuracy: 0.9673 - val_loss: 0.2238 - val_accuracy: 0.9333
+Epoch 9: early stopping
+✅  Restored best validation weights.
+✅  Final Test Accuracy: 93.333%
+📁  All figures saved to C:\Users\Cleveland\Desktop\mechanical\assignment3\result
